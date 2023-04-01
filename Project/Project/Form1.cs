@@ -32,5 +32,9 @@ namespace Project
             lastPoint  = new Point(e.X, e.Y);
         }
 
+        private void CloseButton_Click(object sender, EventArgs e)
+        {
+            this.Close(); //this обращается к текущему окну
+        }
     }
 }
