@@ -52,6 +52,12 @@
     <Compile Include="DataForm.Designer.cs">
       <DependentUpon>DataForm.cs</DependentUpon>
     </Compile>
+    <Compile Include="ResultsForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ResultsForm.Designer.cs">
+      <DependentUpon>ResultsForm.cs</DependentUpon>
+    </Compile>
     <Compile Include="StartForm.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -62,6 +68,9 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="DataForm.resx">
       <DependentUpon>DataForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ResultsForm.resx">
+      <DependentUpon>ResultsForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="StartForm.resx">
       <DependentUpon>StartForm.cs</DependentUpon>

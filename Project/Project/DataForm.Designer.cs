@@ -29,21 +29,21 @@
         private void InitializeComponent()
         {
             this.panel1 = new System.Windows.Forms.Panel();
+            this.Calculate = new System.Windows.Forms.Button();
+            this.Inflation = new System.Windows.Forms.TextBox();
+            this.InvestmentRate = new System.Windows.Forms.TextBox();
+            this.IncomeGrowth = new System.Windows.Forms.TextBox();
+            this.Expenses = new System.Windows.Forms.TextBox();
+            this.Income = new System.Windows.Forms.TextBox();
+            this.StartUpCapital = new System.Windows.Forms.TextBox();
+            this.label5 = new System.Windows.Forms.Label();
+            this.label4 = new System.Windows.Forms.Label();
+            this.label3 = new System.Windows.Forms.Label();
+            this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
             this.CloseButton = new System.Windows.Forms.Button();
             this.MainPanel = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
-            this.label3 = new System.Windows.Forms.Label();
-            this.label4 = new System.Windows.Forms.Label();
-            this.label5 = new System.Windows.Forms.Label();
-            this.StartUpCapital = new System.Windows.Forms.TextBox();
-            this.Income = new System.Windows.Forms.TextBox();
-            this.Expenses = new System.Windows.Forms.TextBox();
-            this.IncomeGrowth = new System.Windows.Forms.TextBox();
-            this.InvestmentRate = new System.Windows.Forms.TextBox();
-            this.Inflation = new System.Windows.Forms.TextBox();
-            this.Calculate = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -69,6 +69,109 @@
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(796, 405);
             this.panel1.TabIndex = 5;
+            // 
+            // Calculate
+            // 
+            this.Calculate.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.Calculate.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
+            this.Calculate.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.Calculate.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.Calculate.Font = new System.Drawing.Font("Times New Roman", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.Calculate.Location = new System.Drawing.Point(299, 341);
+            this.Calculate.Name = "Calculate";
+            this.Calculate.Size = new System.Drawing.Size(185, 52);
+            this.Calculate.TabIndex = 17;
+            this.Calculate.Text = "Рассчитать";
+            this.Calculate.UseVisualStyleBackColor = true;
+            this.Calculate.Click += new System.EventHandler(this.Calculate_Click);
+            // 
+            // Inflation
+            // 
+            this.Inflation.Location = new System.Drawing.Point(280, 282);
+            this.Inflation.Multiline = true;
+            this.Inflation.Name = "Inflation";
+            this.Inflation.Size = new System.Drawing.Size(513, 27);
+            this.Inflation.TabIndex = 16;
+            // 
+            // InvestmentRate
+            // 
+            this.InvestmentRate.Location = new System.Drawing.Point(280, 218);
+            this.InvestmentRate.Multiline = true;
+            this.InvestmentRate.Name = "InvestmentRate";
+            this.InvestmentRate.Size = new System.Drawing.Size(513, 54);
+            this.InvestmentRate.TabIndex = 15;
+            // 
+            // IncomeGrowth
+            // 
+            this.IncomeGrowth.Location = new System.Drawing.Point(280, 158);
+            this.IncomeGrowth.Multiline = true;
+            this.IncomeGrowth.Name = "IncomeGrowth";
+            this.IncomeGrowth.Size = new System.Drawing.Size(513, 54);
+            this.IncomeGrowth.TabIndex = 14;
+            // 
+            // Expenses
+            // 
+            this.Expenses.Location = new System.Drawing.Point(280, 116);
+            this.Expenses.Multiline = true;
+            this.Expenses.Name = "Expenses";
+            this.Expenses.Size = new System.Drawing.Size(513, 28);
+            this.Expenses.TabIndex = 13;
+            // 
+            // Income
+            // 
+            this.Income.Location = new System.Drawing.Point(280, 78);
+            this.Income.Multiline = true;
+            this.Income.Name = "Income";
+            this.Income.Size = new System.Drawing.Size(513, 28);
+            this.Income.TabIndex = 12;
+            // 
+            // StartUpCapital
+            // 
+            this.StartUpCapital.Location = new System.Drawing.Point(280, 40);
+            this.StartUpCapital.Multiline = true;
+            this.StartUpCapital.Name = "StartUpCapital";
+            this.StartUpCapital.Size = new System.Drawing.Size(513, 27);
+            this.StartUpCapital.TabIndex = 11;
+            // 
+            // label5
+            // 
+            this.label5.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.label5.Font = new System.Drawing.Font("Times New Roman", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.label5.Location = new System.Drawing.Point(3, 218);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(271, 54);
+            this.label5.TabIndex = 10;
+            this.label5.Text = "Ставка % ваших инвестиций:";
+            // 
+            // label4
+            // 
+            this.label4.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.label4.Font = new System.Drawing.Font("Times New Roman", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.label4.Location = new System.Drawing.Point(3, 282);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(271, 28);
+            this.label4.TabIndex = 9;
+            this.label4.Text = "Инфляция:";
+            // 
+            // label3
+            // 
+            this.label3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.label3.Font = new System.Drawing.Font("Times New Roman", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.label3.Location = new System.Drawing.Point(3, 153);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(271, 54);
+            this.label3.TabIndex = 8;
+            this.label3.Text = "Ожидаемый прирост доходов / год:";
+            // 
+            // label2
+            // 
+            this.label2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.label2.Font = new System.Drawing.Font("Times New Roman", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.label2.Location = new System.Drawing.Point(3, 116);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(271, 28);
+            this.label2.TabIndex = 7;
+            this.label2.Text = "Расходы / мес сейчас:";
             // 
             // label1
             // 
@@ -121,108 +224,6 @@
             this.MainPanel.Text = "Стартовые параметры:";
             this.MainPanel.MouseDown += new System.Windows.Forms.MouseEventHandler(this.MainPanel_MouseDown);
             this.MainPanel.MouseMove += new System.Windows.Forms.MouseEventHandler(this.MainPanel_MouseMove);
-            // 
-            // label2
-            // 
-            this.label2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.label2.Font = new System.Drawing.Font("Times New Roman", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label2.Location = new System.Drawing.Point(3, 116);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(271, 28);
-            this.label2.TabIndex = 7;
-            this.label2.Text = "Расходы / мес сейчас:";
-            // 
-            // label3
-            // 
-            this.label3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.label3.Font = new System.Drawing.Font("Times New Roman", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label3.Location = new System.Drawing.Point(3, 153);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(271, 54);
-            this.label3.TabIndex = 8;
-            this.label3.Text = "Ожидаемый прирост доходов / год:";
-            // 
-            // label4
-            // 
-            this.label4.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.label4.Font = new System.Drawing.Font("Times New Roman", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label4.Location = new System.Drawing.Point(3, 282);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(271, 28);
-            this.label4.TabIndex = 9;
-            this.label4.Text = "Инфляция:";
-            // 
-            // label5
-            // 
-            this.label5.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.label5.Font = new System.Drawing.Font("Times New Roman", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label5.Location = new System.Drawing.Point(3, 218);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(271, 54);
-            this.label5.TabIndex = 10;
-            this.label5.Text = "Ставка % ваших инвестиций:";
-            // 
-            // StartUpCapital
-            // 
-            this.StartUpCapital.Location = new System.Drawing.Point(280, 40);
-            this.StartUpCapital.Multiline = true;
-            this.StartUpCapital.Name = "StartUpCapital";
-            this.StartUpCapital.Size = new System.Drawing.Size(513, 27);
-            this.StartUpCapital.TabIndex = 11;
-            // 
-            // Income
-            // 
-            this.Income.Location = new System.Drawing.Point(280, 78);
-            this.Income.Multiline = true;
-            this.Income.Name = "Income";
-            this.Income.Size = new System.Drawing.Size(513, 28);
-            this.Income.TabIndex = 12;
-            // 
-            // Expenses
-            // 
-            this.Expenses.Location = new System.Drawing.Point(280, 116);
-            this.Expenses.Multiline = true;
-            this.Expenses.Name = "Expenses";
-            this.Expenses.Size = new System.Drawing.Size(513, 28);
-            this.Expenses.TabIndex = 13;
-            // 
-            // IncomeGrowth
-            // 
-            this.IncomeGrowth.Location = new System.Drawing.Point(280, 153);
-            this.IncomeGrowth.Multiline = true;
-            this.IncomeGrowth.Name = "IncomeGrowth";
-            this.IncomeGrowth.Size = new System.Drawing.Size(513, 54);
-            this.IncomeGrowth.TabIndex = 14;
-            // 
-            // InvestmentRate
-            // 
-            this.InvestmentRate.Location = new System.Drawing.Point(280, 218);
-            this.InvestmentRate.Multiline = true;
-            this.InvestmentRate.Name = "InvestmentRate";
-            this.InvestmentRate.Size = new System.Drawing.Size(513, 54);
-            this.InvestmentRate.TabIndex = 15;
-            // 
-            // Inflation
-            // 
-            this.Inflation.Location = new System.Drawing.Point(280, 282);
-            this.Inflation.Multiline = true;
-            this.Inflation.Name = "Inflation";
-            this.Inflation.Size = new System.Drawing.Size(513, 27);
-            this.Inflation.TabIndex = 16;
-            // 
-            // Calculate
-            // 
-            this.Calculate.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.Calculate.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
-            this.Calculate.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
-            this.Calculate.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.Calculate.Font = new System.Drawing.Font("Times New Roman", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.Calculate.Location = new System.Drawing.Point(299, 341);
-            this.Calculate.Name = "Calculate";
-            this.Calculate.Size = new System.Drawing.Size(185, 52);
-            this.Calculate.TabIndex = 17;
-            this.Calculate.Text = "Рассчитать";
-            this.Calculate.UseVisualStyleBackColor = true;
             // 
             // DataForm
             // 

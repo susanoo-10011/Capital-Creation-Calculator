@@ -12,6 +12,7 @@ namespace Project
 {
     public partial class DataForm : Form
     {
+        double SumStartupCapital;
         public DataForm()
         {
             InitializeComponent();
@@ -37,5 +38,22 @@ namespace Project
             Application.Exit();
         }
 
+
+        private void Calculate_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            ResultsForm resultsForm = new ResultsForm();
+
+            resultsForm.Value1 = StartUpCapital.Text;
+            resultsForm.Value2 = Income.Text;
+            resultsForm.Value3 = Expenses.Text;
+            resultsForm.Value4 = IncomeGrowth.Text;
+            resultsForm.Value5 = InvestmentRate.Text;
+            resultsForm.Value6 = Inflation.Text;
+
+
+            resultsForm.Show();
+
+        }
     }
 }
