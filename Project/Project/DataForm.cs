@@ -12,7 +12,7 @@ namespace Project
 {
     public partial class DataForm : Form
     {
-        double SumStartupCapital;
+        double Value1, Value2, Value3, Value4, Value5, Value6;
         public DataForm()
         {
             InitializeComponent();
@@ -41,17 +41,26 @@ namespace Project
 
         private void Calculate_Click(object sender, EventArgs e)
         {
-            this.Hide();
+            double[] values = new double[6];
+            bool valid = true;
+
+            // Проверка правильности введения данных
+            valid &= Double.TryParse(StartUpCapital.Text, out values[0]);
+            valid &= Double.TryParse(Income.Text, out values[1]);
+            valid &= Double.TryParse(Expenses.Text, out values[2]);
+            valid &= Double.TryParse(IncomeGrowth.Text, out values[3]);
+            valid &= Double.TryParse(InvestmentRate.Text, out values[4]);
+            valid &= Double.TryParse(Inflation.Text, out values[5]);
+
+            if (!valid)
+            {
+                MessageBox.Show("Неверный формат данных", "Ошибка", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                return;
+            }
+
+            // Передача значений в ResultsForm
             ResultsForm resultsForm = new ResultsForm();
-
-            resultsForm.Value1 = StartUpCapital.Text;
-            resultsForm.Value2 = Income.Text;
-            resultsForm.Value3 = Expenses.Text;
-            resultsForm.Value4 = IncomeGrowth.Text;
-            resultsForm.Value5 = InvestmentRate.Text;
-            resultsForm.Value6 = Inflation.Text;
-
-
+            resultsForm.Tag = values;
             resultsForm.Show();
 
         }
