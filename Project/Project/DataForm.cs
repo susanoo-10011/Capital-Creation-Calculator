@@ -10,31 +10,32 @@ using System.Windows.Forms;
 
 namespace Project
 {
-    public partial class StartForm : Form
+    public partial class DataForm : Form
     {
-        public StartForm()
+        public DataForm()
         {
             InitializeComponent();
         }
 
         Point lastPoint;
-        private void panel1_MouseMove(object sender, MouseEventArgs e)
+        private void MainPanel_MouseMove(object sender, MouseEventArgs e)
         {
-            if(e.Button  == MouseButtons.Left)
+            if (e.Button == MouseButtons.Left)
             {
                 this.Left += e.X - lastPoint.X;
                 this.Top += e.Y - lastPoint.Y;
             }
         }
 
-        private void panel1_MouseDown(object sender, MouseEventArgs e)
+        private void MainPanel_MouseDown(object sender, MouseEventArgs e)
         {
-            lastPoint  = new Point(e.X, e.Y);
+            lastPoint = new Point(e.X, e.Y);
         }
 
         private void CloseButton_Click(object sender, EventArgs e)
         {
-            this.Close(); //this обращается к текущему окну
+            Application.Exit();
         }
+
     }
 }
