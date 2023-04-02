@@ -12,7 +12,6 @@ namespace Project
 {
     public partial class DataForm : Form
     {
-        double Value1, Value2, Value3, Value4, Value5, Value6;
         public DataForm()
         {
             InitializeComponent();
@@ -59,6 +58,7 @@ namespace Project
             }
 
             // Передача значений в ResultsForm
+            this.Hide();
             ResultsForm resultsForm = new ResultsForm();
             resultsForm.Tag = values;
             resultsForm.Show();
