@@ -25,13 +25,6 @@ namespace Project
             }
         }
 
-        private void hScrollBar1_Scroll(object sender, ScrollEventArgs e)
-        {
-            // Получаем текущее значение ползунка
-            int value = ((ScrollBar)sender).Value;
-            // Изменяем положение видимой части содержимого формы
-            this.VerticalScroll.Value = value;
-        }
         private void ResultsForm_MouseDown(object sender, MouseEventArgs e)
         {
             lastPoint = new Point(e.X, e.Y);
@@ -80,7 +73,7 @@ namespace Project
 
         public void MonthlyIncome(double income, double incomeGrowth)
         {
-            for (int i = 2; i <= 3; i++)
+            for (int i = 2; i <= 5; i++)
             {
                 income += income * (incomeGrowth / 100);
                 Label monthlyIncomeYear = Controls.Find("monthlyIncomeYear" + i, true).FirstOrDefault() as Label;
@@ -91,7 +84,7 @@ namespace Project
 
         public void Expenses(double expenses, double inflation)
         {
-            for (int i = 2; i <= 3; i++)
+            for (int i = 2; i <= 5; i++)
             {
                 expenses *= (1 + inflation);
                 Label expensesYear1 = Controls.Find("expensesYear" + i, true).FirstOrDefault() as Label;
@@ -101,7 +94,7 @@ namespace Project
 
         public void Delta(double expenses, double inflation, double income, double incomeGrowth)
         {
-            for (int i = 2; i <= 3; i++)
+            for (int i = 2; i <= 5; i++)
             {
                 expenses *= (1 + inflation);
                 income += income * (incomeGrowth / 100);
@@ -114,7 +107,7 @@ namespace Project
 
         public void AccumulatedCapitalYear()
         {
-            for (int i = 1; i <= 3; i++)
+            for (int i = 1; i <= 5; i++)
             {
                 Label accumulatedCapitalYear = Controls.Find("accumulatedCapitalYear" + i, true).
                         FirstOrDefault() as Label;
@@ -127,9 +120,9 @@ namespace Project
         {
             Label currentCapital1 = Controls.Find("currentCapital1", true).
                         FirstOrDefault() as Label;
-            double[] currentCapitalArray = new double[5]; // создаем массив для двух лет
+            double[] currentCapitalArray = new double[11]; // создаем массив для двух лет
             currentCapitalArray[0] = Convert.ToDouble(currentCapital1.Text); // сохраняем текущее значение капитала
-            for (int i = 2; i <= 3; i++)
+            for (int i = 2; i <= 5; i++)
             {
                 Label lastYearCapitalYear = Controls.Find("lastYearCapitalYear" + i, true).
                         FirstOrDefault() as Label;
