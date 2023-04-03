@@ -87,6 +87,7 @@
             // 
             // Inflation
             // 
+            this.Inflation.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.Inflation.Location = new System.Drawing.Point(280, 282);
             this.Inflation.Multiline = true;
             this.Inflation.Name = "Inflation";
@@ -95,6 +96,7 @@
             // 
             // InvestmentRate
             // 
+            this.InvestmentRate.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.InvestmentRate.Location = new System.Drawing.Point(280, 218);
             this.InvestmentRate.Multiline = true;
             this.InvestmentRate.Name = "InvestmentRate";
@@ -103,6 +105,7 @@
             // 
             // IncomeGrowth
             // 
+            this.IncomeGrowth.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.IncomeGrowth.Location = new System.Drawing.Point(280, 158);
             this.IncomeGrowth.Multiline = true;
             this.IncomeGrowth.Name = "IncomeGrowth";
@@ -111,6 +114,7 @@
             // 
             // Expenses
             // 
+            this.Expenses.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.Expenses.Location = new System.Drawing.Point(280, 116);
             this.Expenses.Multiline = true;
             this.Expenses.Name = "Expenses";
@@ -119,6 +123,7 @@
             // 
             // Income
             // 
+            this.Income.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.Income.Location = new System.Drawing.Point(280, 78);
             this.Income.Multiline = true;
             this.Income.Name = "Income";
@@ -127,6 +132,7 @@
             // 
             // StartUpCapital
             // 
+            this.StartUpCapital.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.StartUpCapital.Location = new System.Drawing.Point(280, 40);
             this.StartUpCapital.Multiline = true;
             this.StartUpCapital.Name = "StartUpCapital";

@@ -65,42 +65,6 @@
             this.percentageYear3 = new System.Windows.Forms.Label();
             this.currentCapital3 = new System.Windows.Forms.Label();
             this.MainPanel = new System.Windows.Forms.Panel();
-            this.currentCapital4 = new System.Windows.Forms.Label();
-            this.percentageYear4 = new System.Windows.Forms.Label();
-            this.percentageOfLastYear4 = new System.Windows.Forms.Label();
-            this.lastYearCapitalYear4 = new System.Windows.Forms.Label();
-            this.accumulatedCapitalYear4 = new System.Windows.Forms.Label();
-            this.deltaYear4 = new System.Windows.Forms.Label();
-            this.expensesYear4 = new System.Windows.Forms.Label();
-            this.monthlyIncomeYear4 = new System.Windows.Forms.Label();
-            this.label20 = new System.Windows.Forms.Label();
-            this.currentCapital5 = new System.Windows.Forms.Label();
-            this.percentageYear5 = new System.Windows.Forms.Label();
-            this.percentageOfLastYear5 = new System.Windows.Forms.Label();
-            this.lastYearCapitalYear5 = new System.Windows.Forms.Label();
-            this.accumulatedCapitalYear5 = new System.Windows.Forms.Label();
-            this.deltaYear5 = new System.Windows.Forms.Label();
-            this.expensesYear5 = new System.Windows.Forms.Label();
-            this.monthlyIncomeYear5 = new System.Windows.Forms.Label();
-            this.label29 = new System.Windows.Forms.Label();
-            this.currentCapital6 = new System.Windows.Forms.Label();
-            this.percentageYear6 = new System.Windows.Forms.Label();
-            this.percentageOfLastYear6 = new System.Windows.Forms.Label();
-            this.lastYearCapitalYear6 = new System.Windows.Forms.Label();
-            this.accumulatedCapitalYear6 = new System.Windows.Forms.Label();
-            this.deltaYear6 = new System.Windows.Forms.Label();
-            this.expensesYear6 = new System.Windows.Forms.Label();
-            this.monthlyIncomeYear6 = new System.Windows.Forms.Label();
-            this.label21 = new System.Windows.Forms.Label();
-            this.currentCapital7 = new System.Windows.Forms.Label();
-            this.percentageYear7 = new System.Windows.Forms.Label();
-            this.percentageOfLastYear7 = new System.Windows.Forms.Label();
-            this.lastYearCapitalYear7 = new System.Windows.Forms.Label();
-            this.accumulatedCapitalYear7 = new System.Windows.Forms.Label();
-            this.deltaYear7 = new System.Windows.Forms.Label();
-            this.expensesYear7 = new System.Windows.Forms.Label();
-            this.monthlyIncomeYear7 = new System.Windows.Forms.Label();
-            this.label22 = new System.Windows.Forms.Label();
             this.currentCapital8 = new System.Windows.Forms.Label();
             this.percentageYear8 = new System.Windows.Forms.Label();
             this.percentageOfLastYear8 = new System.Windows.Forms.Label();
@@ -110,6 +74,42 @@
             this.expensesYear8 = new System.Windows.Forms.Label();
             this.monthlyIncomeYear8 = new System.Windows.Forms.Label();
             this.label32 = new System.Windows.Forms.Label();
+            this.currentCapital7 = new System.Windows.Forms.Label();
+            this.percentageYear7 = new System.Windows.Forms.Label();
+            this.percentageOfLastYear7 = new System.Windows.Forms.Label();
+            this.lastYearCapitalYear7 = new System.Windows.Forms.Label();
+            this.accumulatedCapitalYear7 = new System.Windows.Forms.Label();
+            this.deltaYear7 = new System.Windows.Forms.Label();
+            this.expensesYear7 = new System.Windows.Forms.Label();
+            this.monthlyIncomeYear7 = new System.Windows.Forms.Label();
+            this.label22 = new System.Windows.Forms.Label();
+            this.currentCapital6 = new System.Windows.Forms.Label();
+            this.percentageYear6 = new System.Windows.Forms.Label();
+            this.percentageOfLastYear6 = new System.Windows.Forms.Label();
+            this.lastYearCapitalYear6 = new System.Windows.Forms.Label();
+            this.accumulatedCapitalYear6 = new System.Windows.Forms.Label();
+            this.deltaYear6 = new System.Windows.Forms.Label();
+            this.expensesYear6 = new System.Windows.Forms.Label();
+            this.monthlyIncomeYear6 = new System.Windows.Forms.Label();
+            this.label21 = new System.Windows.Forms.Label();
+            this.currentCapital5 = new System.Windows.Forms.Label();
+            this.percentageYear5 = new System.Windows.Forms.Label();
+            this.percentageOfLastYear5 = new System.Windows.Forms.Label();
+            this.lastYearCapitalYear5 = new System.Windows.Forms.Label();
+            this.accumulatedCapitalYear5 = new System.Windows.Forms.Label();
+            this.deltaYear5 = new System.Windows.Forms.Label();
+            this.expensesYear5 = new System.Windows.Forms.Label();
+            this.monthlyIncomeYear5 = new System.Windows.Forms.Label();
+            this.label29 = new System.Windows.Forms.Label();
+            this.currentCapital4 = new System.Windows.Forms.Label();
+            this.percentageYear4 = new System.Windows.Forms.Label();
+            this.percentageOfLastYear4 = new System.Windows.Forms.Label();
+            this.lastYearCapitalYear4 = new System.Windows.Forms.Label();
+            this.accumulatedCapitalYear4 = new System.Windows.Forms.Label();
+            this.deltaYear4 = new System.Windows.Forms.Label();
+            this.expensesYear4 = new System.Windows.Forms.Label();
+            this.monthlyIncomeYear4 = new System.Windows.Forms.Label();
+            this.label20 = new System.Windows.Forms.Label();
             this.MainPanel.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -135,7 +135,7 @@
             // 
             this.label1.BackColor = System.Drawing.SystemColors.ActiveBorder;
             this.label1.Font = new System.Drawing.Font("Times New Roman", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label1.Location = new System.Drawing.Point(289, 14);
+            this.label1.Location = new System.Drawing.Point(19, 12);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(172, 23);
             this.label1.TabIndex = 7;
@@ -146,7 +146,7 @@
             // 
             this.label2.BackColor = System.Drawing.SystemColors.ActiveBorder;
             this.label2.Font = new System.Drawing.Font("Times New Roman", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label2.Location = new System.Drawing.Point(484, 14);
+            this.label2.Location = new System.Drawing.Point(214, 12);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(173, 23);
             this.label2.TabIndex = 8;
@@ -157,7 +157,7 @@
             // 
             this.label3.BackColor = System.Drawing.SystemColors.ActiveBorder;
             this.label3.Font = new System.Drawing.Font("Times New Roman", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label3.Location = new System.Drawing.Point(7, 47);
+            this.label3.Location = new System.Drawing.Point(24, 88);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(251, 29);
             this.label3.TabIndex = 9;
@@ -168,7 +168,7 @@
             // 
             this.label4.BackColor = System.Drawing.SystemColors.ActiveBorder;
             this.label4.Font = new System.Drawing.Font("Times New Roman", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label4.Location = new System.Drawing.Point(7, 89);
+            this.label4.Location = new System.Drawing.Point(24, 130);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(251, 29);
             this.label4.TabIndex = 10;
@@ -179,7 +179,7 @@
             // 
             this.label5.BackColor = System.Drawing.SystemColors.ActiveBorder;
             this.label5.Font = new System.Drawing.Font("Times New Roman", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label5.Location = new System.Drawing.Point(7, 189);
+            this.label5.Location = new System.Drawing.Point(24, 230);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(251, 29);
             this.label5.TabIndex = 11;
@@ -190,7 +190,7 @@
             // 
             this.label6.BackColor = System.Drawing.SystemColors.ActiveBorder;
             this.label6.Font = new System.Drawing.Font("Times New Roman", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label6.Location = new System.Drawing.Point(7, 231);
+            this.label6.Location = new System.Drawing.Point(24, 272);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(251, 29);
             this.label6.TabIndex = 12;
@@ -201,7 +201,7 @@
             // 
             this.label7.BackColor = System.Drawing.SystemColors.ActiveBorder;
             this.label7.Font = new System.Drawing.Font("Times New Roman", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label7.Location = new System.Drawing.Point(7, 271);
+            this.label7.Location = new System.Drawing.Point(24, 312);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(251, 54);
             this.label7.TabIndex = 13;
@@ -212,7 +212,7 @@
             // 
             this.label8.BackColor = System.Drawing.SystemColors.ActiveBorder;
             this.label8.Font = new System.Drawing.Font("Times New Roman", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label8.Location = new System.Drawing.Point(7, 345);
+            this.label8.Location = new System.Drawing.Point(24, 386);
             this.label8.Name = "label8";
             this.label8.Size = new System.Drawing.Size(251, 54);
             this.label8.TabIndex = 14;
@@ -223,7 +223,7 @@
             // 
             this.label9.BackColor = System.Drawing.SystemColors.ActiveBorder;
             this.label9.Font = new System.Drawing.Font("Times New Roman", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label9.Location = new System.Drawing.Point(7, 411);
+            this.label9.Location = new System.Drawing.Point(24, 452);
             this.label9.Name = "label9";
             this.label9.Size = new System.Drawing.Size(251, 29);
             this.label9.TabIndex = 15;
@@ -234,7 +234,7 @@
             // 
             this.monthlyIncomeYear2.BackColor = System.Drawing.SystemColors.ActiveBorder;
             this.monthlyIncomeYear2.Font = new System.Drawing.Font("Times New Roman", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.monthlyIncomeYear2.Location = new System.Drawing.Point(484, 47);
+            this.monthlyIncomeYear2.Location = new System.Drawing.Point(214, 45);
             this.monthlyIncomeYear2.Name = "monthlyIncomeYear2";
             this.monthlyIncomeYear2.Size = new System.Drawing.Size(173, 29);
             this.monthlyIncomeYear2.TabIndex = 17;
@@ -244,7 +244,7 @@
             // 
             this.expensesYear1.BackColor = System.Drawing.SystemColors.ActiveBorder;
             this.expensesYear1.Font = new System.Drawing.Font("Times New Roman", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.expensesYear1.Location = new System.Drawing.Point(289, 89);
+            this.expensesYear1.Location = new System.Drawing.Point(19, 87);
             this.expensesYear1.Name = "expensesYear1";
             this.expensesYear1.Size = new System.Drawing.Size(172, 29);
             this.expensesYear1.TabIndex = 18;
@@ -254,7 +254,7 @@
             // 
             this.accumulatedCapitalYear1.BackColor = System.Drawing.SystemColors.ActiveBorder;
             this.accumulatedCapitalYear1.Font = new System.Drawing.Font("Times New Roman", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.accumulatedCapitalYear1.Location = new System.Drawing.Point(289, 189);
+            this.accumulatedCapitalYear1.Location = new System.Drawing.Point(19, 187);
             this.accumulatedCapitalYear1.Name = "accumulatedCapitalYear1";
             this.accumulatedCapitalYear1.Size = new System.Drawing.Size(172, 29);
             this.accumulatedCapitalYear1.TabIndex = 19;
@@ -264,7 +264,7 @@
             // 
             this.monthlyIncomeYear1.BackColor = System.Drawing.SystemColors.ActiveBorder;
             this.monthlyIncomeYear1.Font = new System.Drawing.Font("Times New Roman", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.monthlyIncomeYear1.Location = new System.Drawing.Point(289, 47);
+            this.monthlyIncomeYear1.Location = new System.Drawing.Point(19, 45);
             this.monthlyIncomeYear1.Name = "monthlyIncomeYear1";
             this.monthlyIncomeYear1.Size = new System.Drawing.Size(172, 29);
             this.monthlyIncomeYear1.TabIndex = 20;
@@ -274,7 +274,7 @@
             // 
             this.lastYearCapitalYear1.BackColor = System.Drawing.SystemColors.ActiveBorder;
             this.lastYearCapitalYear1.Font = new System.Drawing.Font("Times New Roman", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.lastYearCapitalYear1.Location = new System.Drawing.Point(289, 231);
+            this.lastYearCapitalYear1.Location = new System.Drawing.Point(19, 229);
             this.lastYearCapitalYear1.Name = "lastYearCapitalYear1";
             this.lastYearCapitalYear1.Size = new System.Drawing.Size(172, 29);
             this.lastYearCapitalYear1.TabIndex = 21;
@@ -284,7 +284,7 @@
             // 
             this.percentageOfLastYear1.BackColor = System.Drawing.SystemColors.ActiveBorder;
             this.percentageOfLastYear1.Font = new System.Drawing.Font("Times New Roman", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.percentageOfLastYear1.Location = new System.Drawing.Point(289, 271);
+            this.percentageOfLastYear1.Location = new System.Drawing.Point(19, 269);
             this.percentageOfLastYear1.Name = "percentageOfLastYear1";
             this.percentageOfLastYear1.Size = new System.Drawing.Size(172, 54);
             this.percentageOfLastYear1.TabIndex = 22;
@@ -294,7 +294,7 @@
             // 
             this.percentageYear1.BackColor = System.Drawing.SystemColors.ActiveBorder;
             this.percentageYear1.Font = new System.Drawing.Font("Times New Roman", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.percentageYear1.Location = new System.Drawing.Point(289, 345);
+            this.percentageYear1.Location = new System.Drawing.Point(19, 343);
             this.percentageYear1.Name = "percentageYear1";
             this.percentageYear1.Size = new System.Drawing.Size(172, 54);
             this.percentageYear1.TabIndex = 23;
@@ -304,7 +304,7 @@
             // 
             this.currentCapital1.BackColor = System.Drawing.SystemColors.ActiveBorder;
             this.currentCapital1.Font = new System.Drawing.Font("Times New Roman", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.currentCapital1.Location = new System.Drawing.Point(289, 411);
+            this.currentCapital1.Location = new System.Drawing.Point(19, 409);
             this.currentCapital1.Name = "currentCapital1";
             this.currentCapital1.Size = new System.Drawing.Size(172, 29);
             this.currentCapital1.TabIndex = 24;
@@ -314,7 +314,7 @@
             // 
             this.expensesYear2.BackColor = System.Drawing.SystemColors.ActiveBorder;
             this.expensesYear2.Font = new System.Drawing.Font("Times New Roman", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.expensesYear2.Location = new System.Drawing.Point(484, 89);
+            this.expensesYear2.Location = new System.Drawing.Point(214, 87);
             this.expensesYear2.Name = "expensesYear2";
             this.expensesYear2.Size = new System.Drawing.Size(173, 29);
             this.expensesYear2.TabIndex = 25;
@@ -324,7 +324,7 @@
             // 
             this.accumulatedCapitalYear2.BackColor = System.Drawing.SystemColors.ActiveBorder;
             this.accumulatedCapitalYear2.Font = new System.Drawing.Font("Times New Roman", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.accumulatedCapitalYear2.Location = new System.Drawing.Point(484, 189);
+            this.accumulatedCapitalYear2.Location = new System.Drawing.Point(214, 187);
             this.accumulatedCapitalYear2.Name = "accumulatedCapitalYear2";
             this.accumulatedCapitalYear2.Size = new System.Drawing.Size(173, 29);
             this.accumulatedCapitalYear2.TabIndex = 26;
@@ -334,7 +334,7 @@
             // 
             this.lastYearCapitalYear2.BackColor = System.Drawing.SystemColors.ActiveBorder;
             this.lastYearCapitalYear2.Font = new System.Drawing.Font("Times New Roman", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.lastYearCapitalYear2.Location = new System.Drawing.Point(484, 231);
+            this.lastYearCapitalYear2.Location = new System.Drawing.Point(214, 229);
             this.lastYearCapitalYear2.Name = "lastYearCapitalYear2";
             this.lastYearCapitalYear2.Size = new System.Drawing.Size(173, 29);
             this.lastYearCapitalYear2.TabIndex = 27;
@@ -344,7 +344,7 @@
             // 
             this.percentageOfLastYear2.BackColor = System.Drawing.SystemColors.ActiveBorder;
             this.percentageOfLastYear2.Font = new System.Drawing.Font("Times New Roman", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.percentageOfLastYear2.Location = new System.Drawing.Point(484, 271);
+            this.percentageOfLastYear2.Location = new System.Drawing.Point(214, 269);
             this.percentageOfLastYear2.Name = "percentageOfLastYear2";
             this.percentageOfLastYear2.Size = new System.Drawing.Size(173, 54);
             this.percentageOfLastYear2.TabIndex = 28;
@@ -354,7 +354,7 @@
             // 
             this.percentageYear2.BackColor = System.Drawing.SystemColors.ActiveBorder;
             this.percentageYear2.Font = new System.Drawing.Font("Times New Roman", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.percentageYear2.Location = new System.Drawing.Point(484, 345);
+            this.percentageYear2.Location = new System.Drawing.Point(214, 343);
             this.percentageYear2.Name = "percentageYear2";
             this.percentageYear2.Size = new System.Drawing.Size(173, 54);
             this.percentageYear2.TabIndex = 29;
@@ -364,7 +364,7 @@
             // 
             this.currentCapital2.BackColor = System.Drawing.SystemColors.ActiveBorder;
             this.currentCapital2.Font = new System.Drawing.Font("Times New Roman", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.currentCapital2.Location = new System.Drawing.Point(484, 411);
+            this.currentCapital2.Location = new System.Drawing.Point(214, 409);
             this.currentCapital2.Name = "currentCapital2";
             this.currentCapital2.Size = new System.Drawing.Size(173, 29);
             this.currentCapital2.TabIndex = 30;
@@ -374,7 +374,7 @@
             // 
             this.label10.BackColor = System.Drawing.SystemColors.ActiveBorder;
             this.label10.Font = new System.Drawing.Font("Times New Roman", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label10.Location = new System.Drawing.Point(7, 137);
+            this.label10.Location = new System.Drawing.Point(24, 178);
             this.label10.Name = "label10";
             this.label10.Size = new System.Drawing.Size(251, 29);
             this.label10.TabIndex = 31;
@@ -385,7 +385,7 @@
             // 
             this.deltaYear1.BackColor = System.Drawing.SystemColors.ActiveBorder;
             this.deltaYear1.Font = new System.Drawing.Font("Times New Roman", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.deltaYear1.Location = new System.Drawing.Point(289, 137);
+            this.deltaYear1.Location = new System.Drawing.Point(19, 135);
             this.deltaYear1.Name = "deltaYear1";
             this.deltaYear1.Size = new System.Drawing.Size(172, 29);
             this.deltaYear1.TabIndex = 32;
@@ -395,7 +395,7 @@
             // 
             this.deltaYear2.BackColor = System.Drawing.SystemColors.ActiveBorder;
             this.deltaYear2.Font = new System.Drawing.Font("Times New Roman", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.deltaYear2.Location = new System.Drawing.Point(484, 137);
+            this.deltaYear2.Location = new System.Drawing.Point(214, 135);
             this.deltaYear2.Name = "deltaYear2";
             this.deltaYear2.Size = new System.Drawing.Size(173, 29);
             this.deltaYear2.TabIndex = 33;
@@ -405,7 +405,7 @@
             // 
             this.label11.BackColor = System.Drawing.SystemColors.ActiveBorder;
             this.label11.Font = new System.Drawing.Font("Times New Roman", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label11.Location = new System.Drawing.Point(679, 14);
+            this.label11.Location = new System.Drawing.Point(409, 12);
             this.label11.Name = "label11";
             this.label11.Size = new System.Drawing.Size(173, 23);
             this.label11.TabIndex = 35;
@@ -416,7 +416,7 @@
             // 
             this.monthlyIncomeYear3.BackColor = System.Drawing.SystemColors.ActiveBorder;
             this.monthlyIncomeYear3.Font = new System.Drawing.Font("Times New Roman", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.monthlyIncomeYear3.Location = new System.Drawing.Point(679, 47);
+            this.monthlyIncomeYear3.Location = new System.Drawing.Point(409, 45);
             this.monthlyIncomeYear3.Name = "monthlyIncomeYear3";
             this.monthlyIncomeYear3.Size = new System.Drawing.Size(173, 29);
             this.monthlyIncomeYear3.TabIndex = 36;
@@ -426,7 +426,7 @@
             // 
             this.expensesYear3.BackColor = System.Drawing.SystemColors.ActiveBorder;
             this.expensesYear3.Font = new System.Drawing.Font("Times New Roman", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.expensesYear3.Location = new System.Drawing.Point(679, 89);
+            this.expensesYear3.Location = new System.Drawing.Point(409, 87);
             this.expensesYear3.Name = "expensesYear3";
             this.expensesYear3.Size = new System.Drawing.Size(173, 29);
             this.expensesYear3.TabIndex = 37;
@@ -436,7 +436,7 @@
             // 
             this.deltaYear3.BackColor = System.Drawing.SystemColors.ActiveBorder;
             this.deltaYear3.Font = new System.Drawing.Font("Times New Roman", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.deltaYear3.Location = new System.Drawing.Point(679, 137);
+            this.deltaYear3.Location = new System.Drawing.Point(409, 135);
             this.deltaYear3.Name = "deltaYear3";
             this.deltaYear3.Size = new System.Drawing.Size(173, 29);
             this.deltaYear3.TabIndex = 38;
@@ -446,7 +446,7 @@
             // 
             this.accumulatedCapitalYear3.BackColor = System.Drawing.SystemColors.ActiveBorder;
             this.accumulatedCapitalYear3.Font = new System.Drawing.Font("Times New Roman", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.accumulatedCapitalYear3.Location = new System.Drawing.Point(679, 189);
+            this.accumulatedCapitalYear3.Location = new System.Drawing.Point(409, 187);
             this.accumulatedCapitalYear3.Name = "accumulatedCapitalYear3";
             this.accumulatedCapitalYear3.Size = new System.Drawing.Size(173, 29);
             this.accumulatedCapitalYear3.TabIndex = 39;
@@ -456,7 +456,7 @@
             // 
             this.lastYearCapitalYear3.BackColor = System.Drawing.SystemColors.ActiveBorder;
             this.lastYearCapitalYear3.Font = new System.Drawing.Font("Times New Roman", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.lastYearCapitalYear3.Location = new System.Drawing.Point(679, 231);
+            this.lastYearCapitalYear3.Location = new System.Drawing.Point(409, 229);
             this.lastYearCapitalYear3.Name = "lastYearCapitalYear3";
             this.lastYearCapitalYear3.Size = new System.Drawing.Size(173, 29);
             this.lastYearCapitalYear3.TabIndex = 40;
@@ -466,7 +466,7 @@
             // 
             this.percentageOfLastYear3.BackColor = System.Drawing.SystemColors.ActiveBorder;
             this.percentageOfLastYear3.Font = new System.Drawing.Font("Times New Roman", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.percentageOfLastYear3.Location = new System.Drawing.Point(679, 271);
+            this.percentageOfLastYear3.Location = new System.Drawing.Point(409, 269);
             this.percentageOfLastYear3.Name = "percentageOfLastYear3";
             this.percentageOfLastYear3.Size = new System.Drawing.Size(173, 54);
             this.percentageOfLastYear3.TabIndex = 41;
@@ -476,7 +476,7 @@
             // 
             this.percentageYear3.BackColor = System.Drawing.SystemColors.ActiveBorder;
             this.percentageYear3.Font = new System.Drawing.Font("Times New Roman", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.percentageYear3.Location = new System.Drawing.Point(679, 345);
+            this.percentageYear3.Location = new System.Drawing.Point(409, 343);
             this.percentageYear3.Name = "percentageYear3";
             this.percentageYear3.Size = new System.Drawing.Size(173, 54);
             this.percentageYear3.TabIndex = 42;
@@ -486,7 +486,7 @@
             // 
             this.currentCapital3.BackColor = System.Drawing.SystemColors.ActiveBorder;
             this.currentCapital3.Font = new System.Drawing.Font("Times New Roman", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.currentCapital3.Location = new System.Drawing.Point(679, 411);
+            this.currentCapital3.Location = new System.Drawing.Point(409, 409);
             this.currentCapital3.Name = "currentCapital3";
             this.currentCapital3.Size = new System.Drawing.Size(173, 29);
             this.currentCapital3.TabIndex = 43;
@@ -548,20 +548,12 @@
             this.MainPanel.Controls.Add(this.lastYearCapitalYear3);
             this.MainPanel.Controls.Add(this.label2);
             this.MainPanel.Controls.Add(this.accumulatedCapitalYear3);
-            this.MainPanel.Controls.Add(this.label3);
             this.MainPanel.Controls.Add(this.deltaYear3);
-            this.MainPanel.Controls.Add(this.label4);
             this.MainPanel.Controls.Add(this.expensesYear3);
-            this.MainPanel.Controls.Add(this.label5);
             this.MainPanel.Controls.Add(this.monthlyIncomeYear3);
-            this.MainPanel.Controls.Add(this.label6);
             this.MainPanel.Controls.Add(this.label11);
-            this.MainPanel.Controls.Add(this.label7);
             this.MainPanel.Controls.Add(this.deltaYear2);
-            this.MainPanel.Controls.Add(this.label8);
             this.MainPanel.Controls.Add(this.deltaYear1);
-            this.MainPanel.Controls.Add(this.label9);
-            this.MainPanel.Controls.Add(this.label10);
             this.MainPanel.Controls.Add(this.monthlyIncomeYear2);
             this.MainPanel.Controls.Add(this.expensesYear1);
             this.MainPanel.Controls.Add(this.percentageYear2);
@@ -575,381 +567,16 @@
             this.MainPanel.Controls.Add(this.expensesYear2);
             this.MainPanel.Controls.Add(this.percentageYear1);
             this.MainPanel.Controls.Add(this.currentCapital1);
-            this.MainPanel.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.MainPanel.Location = new System.Drawing.Point(0, 43);
+            this.MainPanel.Location = new System.Drawing.Point(293, 43);
             this.MainPanel.Name = "MainPanel";
-            this.MainPanel.Size = new System.Drawing.Size(1035, 474);
+            this.MainPanel.Size = new System.Drawing.Size(742, 474);
             this.MainPanel.TabIndex = 44;
-            // 
-            // currentCapital4
-            // 
-            this.currentCapital4.BackColor = System.Drawing.SystemColors.ActiveBorder;
-            this.currentCapital4.Font = new System.Drawing.Font("Times New Roman", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.currentCapital4.Location = new System.Drawing.Point(872, 411);
-            this.currentCapital4.Name = "currentCapital4";
-            this.currentCapital4.Size = new System.Drawing.Size(173, 29);
-            this.currentCapital4.TabIndex = 52;
-            this.currentCapital4.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // percentageYear4
-            // 
-            this.percentageYear4.BackColor = System.Drawing.SystemColors.ActiveBorder;
-            this.percentageYear4.Font = new System.Drawing.Font("Times New Roman", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.percentageYear4.Location = new System.Drawing.Point(872, 345);
-            this.percentageYear4.Name = "percentageYear4";
-            this.percentageYear4.Size = new System.Drawing.Size(173, 54);
-            this.percentageYear4.TabIndex = 51;
-            this.percentageYear4.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // percentageOfLastYear4
-            // 
-            this.percentageOfLastYear4.BackColor = System.Drawing.SystemColors.ActiveBorder;
-            this.percentageOfLastYear4.Font = new System.Drawing.Font("Times New Roman", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.percentageOfLastYear4.Location = new System.Drawing.Point(872, 271);
-            this.percentageOfLastYear4.Name = "percentageOfLastYear4";
-            this.percentageOfLastYear4.Size = new System.Drawing.Size(173, 54);
-            this.percentageOfLastYear4.TabIndex = 50;
-            this.percentageOfLastYear4.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // lastYearCapitalYear4
-            // 
-            this.lastYearCapitalYear4.BackColor = System.Drawing.SystemColors.ActiveBorder;
-            this.lastYearCapitalYear4.Font = new System.Drawing.Font("Times New Roman", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.lastYearCapitalYear4.Location = new System.Drawing.Point(872, 231);
-            this.lastYearCapitalYear4.Name = "lastYearCapitalYear4";
-            this.lastYearCapitalYear4.Size = new System.Drawing.Size(173, 29);
-            this.lastYearCapitalYear4.TabIndex = 49;
-            this.lastYearCapitalYear4.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // accumulatedCapitalYear4
-            // 
-            this.accumulatedCapitalYear4.BackColor = System.Drawing.SystemColors.ActiveBorder;
-            this.accumulatedCapitalYear4.Font = new System.Drawing.Font("Times New Roman", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.accumulatedCapitalYear4.Location = new System.Drawing.Point(872, 189);
-            this.accumulatedCapitalYear4.Name = "accumulatedCapitalYear4";
-            this.accumulatedCapitalYear4.Size = new System.Drawing.Size(173, 29);
-            this.accumulatedCapitalYear4.TabIndex = 48;
-            this.accumulatedCapitalYear4.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // deltaYear4
-            // 
-            this.deltaYear4.BackColor = System.Drawing.SystemColors.ActiveBorder;
-            this.deltaYear4.Font = new System.Drawing.Font("Times New Roman", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.deltaYear4.Location = new System.Drawing.Point(872, 137);
-            this.deltaYear4.Name = "deltaYear4";
-            this.deltaYear4.Size = new System.Drawing.Size(173, 29);
-            this.deltaYear4.TabIndex = 47;
-            this.deltaYear4.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // expensesYear4
-            // 
-            this.expensesYear4.BackColor = System.Drawing.SystemColors.ActiveBorder;
-            this.expensesYear4.Font = new System.Drawing.Font("Times New Roman", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.expensesYear4.Location = new System.Drawing.Point(872, 89);
-            this.expensesYear4.Name = "expensesYear4";
-            this.expensesYear4.Size = new System.Drawing.Size(173, 29);
-            this.expensesYear4.TabIndex = 46;
-            this.expensesYear4.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // monthlyIncomeYear4
-            // 
-            this.monthlyIncomeYear4.BackColor = System.Drawing.SystemColors.ActiveBorder;
-            this.monthlyIncomeYear4.Font = new System.Drawing.Font("Times New Roman", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.monthlyIncomeYear4.Location = new System.Drawing.Point(872, 47);
-            this.monthlyIncomeYear4.Name = "monthlyIncomeYear4";
-            this.monthlyIncomeYear4.Size = new System.Drawing.Size(173, 29);
-            this.monthlyIncomeYear4.TabIndex = 45;
-            this.monthlyIncomeYear4.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // label20
-            // 
-            this.label20.BackColor = System.Drawing.SystemColors.ActiveBorder;
-            this.label20.Font = new System.Drawing.Font("Times New Roman", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label20.Location = new System.Drawing.Point(872, 14);
-            this.label20.Name = "label20";
-            this.label20.Size = new System.Drawing.Size(173, 23);
-            this.label20.TabIndex = 44;
-            this.label20.Text = "Год 4";
-            this.label20.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // currentCapital5
-            // 
-            this.currentCapital5.BackColor = System.Drawing.SystemColors.ActiveBorder;
-            this.currentCapital5.Font = new System.Drawing.Font("Times New Roman", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.currentCapital5.Location = new System.Drawing.Point(1069, 411);
-            this.currentCapital5.Name = "currentCapital5";
-            this.currentCapital5.Size = new System.Drawing.Size(173, 29);
-            this.currentCapital5.TabIndex = 61;
-            this.currentCapital5.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // percentageYear5
-            // 
-            this.percentageYear5.BackColor = System.Drawing.SystemColors.ActiveBorder;
-            this.percentageYear5.Font = new System.Drawing.Font("Times New Roman", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.percentageYear5.Location = new System.Drawing.Point(1069, 345);
-            this.percentageYear5.Name = "percentageYear5";
-            this.percentageYear5.Size = new System.Drawing.Size(173, 54);
-            this.percentageYear5.TabIndex = 60;
-            this.percentageYear5.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // percentageOfLastYear5
-            // 
-            this.percentageOfLastYear5.BackColor = System.Drawing.SystemColors.ActiveBorder;
-            this.percentageOfLastYear5.Font = new System.Drawing.Font("Times New Roman", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.percentageOfLastYear5.Location = new System.Drawing.Point(1069, 271);
-            this.percentageOfLastYear5.Name = "percentageOfLastYear5";
-            this.percentageOfLastYear5.Size = new System.Drawing.Size(173, 54);
-            this.percentageOfLastYear5.TabIndex = 59;
-            this.percentageOfLastYear5.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // lastYearCapitalYear5
-            // 
-            this.lastYearCapitalYear5.BackColor = System.Drawing.SystemColors.ActiveBorder;
-            this.lastYearCapitalYear5.Font = new System.Drawing.Font("Times New Roman", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.lastYearCapitalYear5.Location = new System.Drawing.Point(1069, 231);
-            this.lastYearCapitalYear5.Name = "lastYearCapitalYear5";
-            this.lastYearCapitalYear5.Size = new System.Drawing.Size(173, 29);
-            this.lastYearCapitalYear5.TabIndex = 58;
-            this.lastYearCapitalYear5.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // accumulatedCapitalYear5
-            // 
-            this.accumulatedCapitalYear5.BackColor = System.Drawing.SystemColors.ActiveBorder;
-            this.accumulatedCapitalYear5.Font = new System.Drawing.Font("Times New Roman", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.accumulatedCapitalYear5.Location = new System.Drawing.Point(1069, 189);
-            this.accumulatedCapitalYear5.Name = "accumulatedCapitalYear5";
-            this.accumulatedCapitalYear5.Size = new System.Drawing.Size(173, 29);
-            this.accumulatedCapitalYear5.TabIndex = 57;
-            this.accumulatedCapitalYear5.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // deltaYear5
-            // 
-            this.deltaYear5.BackColor = System.Drawing.SystemColors.ActiveBorder;
-            this.deltaYear5.Font = new System.Drawing.Font("Times New Roman", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.deltaYear5.Location = new System.Drawing.Point(1069, 137);
-            this.deltaYear5.Name = "deltaYear5";
-            this.deltaYear5.Size = new System.Drawing.Size(173, 29);
-            this.deltaYear5.TabIndex = 56;
-            this.deltaYear5.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // expensesYear5
-            // 
-            this.expensesYear5.BackColor = System.Drawing.SystemColors.ActiveBorder;
-            this.expensesYear5.Font = new System.Drawing.Font("Times New Roman", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.expensesYear5.Location = new System.Drawing.Point(1069, 89);
-            this.expensesYear5.Name = "expensesYear5";
-            this.expensesYear5.Size = new System.Drawing.Size(173, 29);
-            this.expensesYear5.TabIndex = 55;
-            this.expensesYear5.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // monthlyIncomeYear5
-            // 
-            this.monthlyIncomeYear5.BackColor = System.Drawing.SystemColors.ActiveBorder;
-            this.monthlyIncomeYear5.Font = new System.Drawing.Font("Times New Roman", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.monthlyIncomeYear5.Location = new System.Drawing.Point(1069, 47);
-            this.monthlyIncomeYear5.Name = "monthlyIncomeYear5";
-            this.monthlyIncomeYear5.Size = new System.Drawing.Size(173, 29);
-            this.monthlyIncomeYear5.TabIndex = 54;
-            this.monthlyIncomeYear5.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // label29
-            // 
-            this.label29.BackColor = System.Drawing.SystemColors.ActiveBorder;
-            this.label29.Font = new System.Drawing.Font("Times New Roman", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label29.Location = new System.Drawing.Point(1069, 14);
-            this.label29.Name = "label29";
-            this.label29.Size = new System.Drawing.Size(173, 23);
-            this.label29.TabIndex = 53;
-            this.label29.Text = "Год 5";
-            this.label29.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // currentCapital6
-            // 
-            this.currentCapital6.BackColor = System.Drawing.SystemColors.ActiveBorder;
-            this.currentCapital6.Font = new System.Drawing.Font("Times New Roman", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.currentCapital6.Location = new System.Drawing.Point(1265, 411);
-            this.currentCapital6.Name = "currentCapital6";
-            this.currentCapital6.Size = new System.Drawing.Size(173, 29);
-            this.currentCapital6.TabIndex = 70;
-            this.currentCapital6.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // percentageYear6
-            // 
-            this.percentageYear6.BackColor = System.Drawing.SystemColors.ActiveBorder;
-            this.percentageYear6.Font = new System.Drawing.Font("Times New Roman", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.percentageYear6.Location = new System.Drawing.Point(1265, 345);
-            this.percentageYear6.Name = "percentageYear6";
-            this.percentageYear6.Size = new System.Drawing.Size(173, 54);
-            this.percentageYear6.TabIndex = 69;
-            this.percentageYear6.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // percentageOfLastYear6
-            // 
-            this.percentageOfLastYear6.BackColor = System.Drawing.SystemColors.ActiveBorder;
-            this.percentageOfLastYear6.Font = new System.Drawing.Font("Times New Roman", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.percentageOfLastYear6.Location = new System.Drawing.Point(1265, 271);
-            this.percentageOfLastYear6.Name = "percentageOfLastYear6";
-            this.percentageOfLastYear6.Size = new System.Drawing.Size(173, 54);
-            this.percentageOfLastYear6.TabIndex = 68;
-            this.percentageOfLastYear6.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // lastYearCapitalYear6
-            // 
-            this.lastYearCapitalYear6.BackColor = System.Drawing.SystemColors.ActiveBorder;
-            this.lastYearCapitalYear6.Font = new System.Drawing.Font("Times New Roman", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.lastYearCapitalYear6.Location = new System.Drawing.Point(1265, 231);
-            this.lastYearCapitalYear6.Name = "lastYearCapitalYear6";
-            this.lastYearCapitalYear6.Size = new System.Drawing.Size(173, 29);
-            this.lastYearCapitalYear6.TabIndex = 67;
-            this.lastYearCapitalYear6.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // accumulatedCapitalYear6
-            // 
-            this.accumulatedCapitalYear6.BackColor = System.Drawing.SystemColors.ActiveBorder;
-            this.accumulatedCapitalYear6.Font = new System.Drawing.Font("Times New Roman", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.accumulatedCapitalYear6.Location = new System.Drawing.Point(1265, 189);
-            this.accumulatedCapitalYear6.Name = "accumulatedCapitalYear6";
-            this.accumulatedCapitalYear6.Size = new System.Drawing.Size(173, 29);
-            this.accumulatedCapitalYear6.TabIndex = 66;
-            this.accumulatedCapitalYear6.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // deltaYear6
-            // 
-            this.deltaYear6.BackColor = System.Drawing.SystemColors.ActiveBorder;
-            this.deltaYear6.Font = new System.Drawing.Font("Times New Roman", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.deltaYear6.Location = new System.Drawing.Point(1265, 137);
-            this.deltaYear6.Name = "deltaYear6";
-            this.deltaYear6.Size = new System.Drawing.Size(173, 29);
-            this.deltaYear6.TabIndex = 65;
-            this.deltaYear6.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // expensesYear6
-            // 
-            this.expensesYear6.BackColor = System.Drawing.SystemColors.ActiveBorder;
-            this.expensesYear6.Font = new System.Drawing.Font("Times New Roman", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.expensesYear6.Location = new System.Drawing.Point(1265, 89);
-            this.expensesYear6.Name = "expensesYear6";
-            this.expensesYear6.Size = new System.Drawing.Size(173, 29);
-            this.expensesYear6.TabIndex = 64;
-            this.expensesYear6.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // monthlyIncomeYear6
-            // 
-            this.monthlyIncomeYear6.BackColor = System.Drawing.SystemColors.ActiveBorder;
-            this.monthlyIncomeYear6.Font = new System.Drawing.Font("Times New Roman", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.monthlyIncomeYear6.Location = new System.Drawing.Point(1265, 47);
-            this.monthlyIncomeYear6.Name = "monthlyIncomeYear6";
-            this.monthlyIncomeYear6.Size = new System.Drawing.Size(173, 29);
-            this.monthlyIncomeYear6.TabIndex = 63;
-            this.monthlyIncomeYear6.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // label21
-            // 
-            this.label21.BackColor = System.Drawing.SystemColors.ActiveBorder;
-            this.label21.Font = new System.Drawing.Font("Times New Roman", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label21.Location = new System.Drawing.Point(1265, 14);
-            this.label21.Name = "label21";
-            this.label21.Size = new System.Drawing.Size(173, 23);
-            this.label21.TabIndex = 62;
-            this.label21.Text = "Год 6";
-            this.label21.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // currentCapital7
-            // 
-            this.currentCapital7.BackColor = System.Drawing.SystemColors.ActiveBorder;
-            this.currentCapital7.Font = new System.Drawing.Font("Times New Roman", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.currentCapital7.Location = new System.Drawing.Point(1460, 411);
-            this.currentCapital7.Name = "currentCapital7";
-            this.currentCapital7.Size = new System.Drawing.Size(173, 29);
-            this.currentCapital7.TabIndex = 79;
-            this.currentCapital7.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // percentageYear7
-            // 
-            this.percentageYear7.BackColor = System.Drawing.SystemColors.ActiveBorder;
-            this.percentageYear7.Font = new System.Drawing.Font("Times New Roman", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.percentageYear7.Location = new System.Drawing.Point(1460, 345);
-            this.percentageYear7.Name = "percentageYear7";
-            this.percentageYear7.Size = new System.Drawing.Size(173, 54);
-            this.percentageYear7.TabIndex = 78;
-            this.percentageYear7.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // percentageOfLastYear7
-            // 
-            this.percentageOfLastYear7.BackColor = System.Drawing.SystemColors.ActiveBorder;
-            this.percentageOfLastYear7.Font = new System.Drawing.Font("Times New Roman", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.percentageOfLastYear7.Location = new System.Drawing.Point(1460, 271);
-            this.percentageOfLastYear7.Name = "percentageOfLastYear7";
-            this.percentageOfLastYear7.Size = new System.Drawing.Size(173, 54);
-            this.percentageOfLastYear7.TabIndex = 77;
-            this.percentageOfLastYear7.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // lastYearCapitalYear7
-            // 
-            this.lastYearCapitalYear7.BackColor = System.Drawing.SystemColors.ActiveBorder;
-            this.lastYearCapitalYear7.Font = new System.Drawing.Font("Times New Roman", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.lastYearCapitalYear7.Location = new System.Drawing.Point(1460, 231);
-            this.lastYearCapitalYear7.Name = "lastYearCapitalYear7";
-            this.lastYearCapitalYear7.Size = new System.Drawing.Size(173, 29);
-            this.lastYearCapitalYear7.TabIndex = 76;
-            this.lastYearCapitalYear7.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // accumulatedCapitalYear7
-            // 
-            this.accumulatedCapitalYear7.BackColor = System.Drawing.SystemColors.ActiveBorder;
-            this.accumulatedCapitalYear7.Font = new System.Drawing.Font("Times New Roman", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.accumulatedCapitalYear7.Location = new System.Drawing.Point(1460, 189);
-            this.accumulatedCapitalYear7.Name = "accumulatedCapitalYear7";
-            this.accumulatedCapitalYear7.Size = new System.Drawing.Size(173, 29);
-            this.accumulatedCapitalYear7.TabIndex = 75;
-            this.accumulatedCapitalYear7.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // deltaYear7
-            // 
-            this.deltaYear7.BackColor = System.Drawing.SystemColors.ActiveBorder;
-            this.deltaYear7.Font = new System.Drawing.Font("Times New Roman", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.deltaYear7.Location = new System.Drawing.Point(1460, 137);
-            this.deltaYear7.Name = "deltaYear7";
-            this.deltaYear7.Size = new System.Drawing.Size(173, 29);
-            this.deltaYear7.TabIndex = 74;
-            this.deltaYear7.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // expensesYear7
-            // 
-            this.expensesYear7.BackColor = System.Drawing.SystemColors.ActiveBorder;
-            this.expensesYear7.Font = new System.Drawing.Font("Times New Roman", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.expensesYear7.Location = new System.Drawing.Point(1460, 89);
-            this.expensesYear7.Name = "expensesYear7";
-            this.expensesYear7.Size = new System.Drawing.Size(173, 29);
-            this.expensesYear7.TabIndex = 73;
-            this.expensesYear7.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // monthlyIncomeYear7
-            // 
-            this.monthlyIncomeYear7.BackColor = System.Drawing.SystemColors.ActiveBorder;
-            this.monthlyIncomeYear7.Font = new System.Drawing.Font("Times New Roman", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.monthlyIncomeYear7.Location = new System.Drawing.Point(1460, 47);
-            this.monthlyIncomeYear7.Name = "monthlyIncomeYear7";
-            this.monthlyIncomeYear7.Size = new System.Drawing.Size(173, 29);
-            this.monthlyIncomeYear7.TabIndex = 72;
-            this.monthlyIncomeYear7.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // label22
-            // 
-            this.label22.BackColor = System.Drawing.SystemColors.ActiveBorder;
-            this.label22.Font = new System.Drawing.Font("Times New Roman", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label22.Location = new System.Drawing.Point(1460, 14);
-            this.label22.Name = "label22";
-            this.label22.Size = new System.Drawing.Size(173, 23);
-            this.label22.TabIndex = 71;
-            this.label22.Text = "Год 7";
-            this.label22.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // currentCapital8
             // 
             this.currentCapital8.BackColor = System.Drawing.SystemColors.ActiveBorder;
             this.currentCapital8.Font = new System.Drawing.Font("Times New Roman", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.currentCapital8.Location = new System.Drawing.Point(1668, 411);
+            this.currentCapital8.Location = new System.Drawing.Point(1398, 409);
             this.currentCapital8.Name = "currentCapital8";
             this.currentCapital8.Size = new System.Drawing.Size(173, 29);
             this.currentCapital8.TabIndex = 88;
@@ -959,7 +586,7 @@
             // 
             this.percentageYear8.BackColor = System.Drawing.SystemColors.ActiveBorder;
             this.percentageYear8.Font = new System.Drawing.Font("Times New Roman", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.percentageYear8.Location = new System.Drawing.Point(1668, 345);
+            this.percentageYear8.Location = new System.Drawing.Point(1398, 343);
             this.percentageYear8.Name = "percentageYear8";
             this.percentageYear8.Size = new System.Drawing.Size(173, 54);
             this.percentageYear8.TabIndex = 87;
@@ -969,7 +596,7 @@
             // 
             this.percentageOfLastYear8.BackColor = System.Drawing.SystemColors.ActiveBorder;
             this.percentageOfLastYear8.Font = new System.Drawing.Font("Times New Roman", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.percentageOfLastYear8.Location = new System.Drawing.Point(1668, 271);
+            this.percentageOfLastYear8.Location = new System.Drawing.Point(1398, 269);
             this.percentageOfLastYear8.Name = "percentageOfLastYear8";
             this.percentageOfLastYear8.Size = new System.Drawing.Size(173, 54);
             this.percentageOfLastYear8.TabIndex = 86;
@@ -979,7 +606,7 @@
             // 
             this.lastYearCapitalYear8.BackColor = System.Drawing.SystemColors.ActiveBorder;
             this.lastYearCapitalYear8.Font = new System.Drawing.Font("Times New Roman", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.lastYearCapitalYear8.Location = new System.Drawing.Point(1668, 231);
+            this.lastYearCapitalYear8.Location = new System.Drawing.Point(1398, 229);
             this.lastYearCapitalYear8.Name = "lastYearCapitalYear8";
             this.lastYearCapitalYear8.Size = new System.Drawing.Size(173, 29);
             this.lastYearCapitalYear8.TabIndex = 85;
@@ -989,7 +616,7 @@
             // 
             this.accumulatedCapitalYear8.BackColor = System.Drawing.SystemColors.ActiveBorder;
             this.accumulatedCapitalYear8.Font = new System.Drawing.Font("Times New Roman", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.accumulatedCapitalYear8.Location = new System.Drawing.Point(1668, 189);
+            this.accumulatedCapitalYear8.Location = new System.Drawing.Point(1398, 187);
             this.accumulatedCapitalYear8.Name = "accumulatedCapitalYear8";
             this.accumulatedCapitalYear8.Size = new System.Drawing.Size(173, 29);
             this.accumulatedCapitalYear8.TabIndex = 84;
@@ -999,7 +626,7 @@
             // 
             this.deltaYear8.BackColor = System.Drawing.SystemColors.ActiveBorder;
             this.deltaYear8.Font = new System.Drawing.Font("Times New Roman", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.deltaYear8.Location = new System.Drawing.Point(1668, 137);
+            this.deltaYear8.Location = new System.Drawing.Point(1398, 135);
             this.deltaYear8.Name = "deltaYear8";
             this.deltaYear8.Size = new System.Drawing.Size(173, 29);
             this.deltaYear8.TabIndex = 83;
@@ -1009,7 +636,7 @@
             // 
             this.expensesYear8.BackColor = System.Drawing.SystemColors.ActiveBorder;
             this.expensesYear8.Font = new System.Drawing.Font("Times New Roman", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.expensesYear8.Location = new System.Drawing.Point(1668, 89);
+            this.expensesYear8.Location = new System.Drawing.Point(1398, 87);
             this.expensesYear8.Name = "expensesYear8";
             this.expensesYear8.Size = new System.Drawing.Size(173, 29);
             this.expensesYear8.TabIndex = 82;
@@ -1019,7 +646,7 @@
             // 
             this.monthlyIncomeYear8.BackColor = System.Drawing.SystemColors.ActiveBorder;
             this.monthlyIncomeYear8.Font = new System.Drawing.Font("Times New Roman", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.monthlyIncomeYear8.Location = new System.Drawing.Point(1668, 47);
+            this.monthlyIncomeYear8.Location = new System.Drawing.Point(1398, 45);
             this.monthlyIncomeYear8.Name = "monthlyIncomeYear8";
             this.monthlyIncomeYear8.Size = new System.Drawing.Size(173, 29);
             this.monthlyIncomeYear8.TabIndex = 81;
@@ -1029,12 +656,376 @@
             // 
             this.label32.BackColor = System.Drawing.SystemColors.ActiveBorder;
             this.label32.Font = new System.Drawing.Font("Times New Roman", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label32.Location = new System.Drawing.Point(1668, 14);
+            this.label32.Location = new System.Drawing.Point(1398, 12);
             this.label32.Name = "label32";
             this.label32.Size = new System.Drawing.Size(173, 23);
             this.label32.TabIndex = 80;
             this.label32.Text = "Год 8";
             this.label32.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // currentCapital7
+            // 
+            this.currentCapital7.BackColor = System.Drawing.SystemColors.ActiveBorder;
+            this.currentCapital7.Font = new System.Drawing.Font("Times New Roman", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.currentCapital7.Location = new System.Drawing.Point(1190, 409);
+            this.currentCapital7.Name = "currentCapital7";
+            this.currentCapital7.Size = new System.Drawing.Size(173, 29);
+            this.currentCapital7.TabIndex = 79;
+            this.currentCapital7.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // percentageYear7
+            // 
+            this.percentageYear7.BackColor = System.Drawing.SystemColors.ActiveBorder;
+            this.percentageYear7.Font = new System.Drawing.Font("Times New Roman", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.percentageYear7.Location = new System.Drawing.Point(1190, 343);
+            this.percentageYear7.Name = "percentageYear7";
+            this.percentageYear7.Size = new System.Drawing.Size(173, 54);
+            this.percentageYear7.TabIndex = 78;
+            this.percentageYear7.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // percentageOfLastYear7
+            // 
+            this.percentageOfLastYear7.BackColor = System.Drawing.SystemColors.ActiveBorder;
+            this.percentageOfLastYear7.Font = new System.Drawing.Font("Times New Roman", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.percentageOfLastYear7.Location = new System.Drawing.Point(1190, 269);
+            this.percentageOfLastYear7.Name = "percentageOfLastYear7";
+            this.percentageOfLastYear7.Size = new System.Drawing.Size(173, 54);
+            this.percentageOfLastYear7.TabIndex = 77;
+            this.percentageOfLastYear7.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // lastYearCapitalYear7
+            // 
+            this.lastYearCapitalYear7.BackColor = System.Drawing.SystemColors.ActiveBorder;
+            this.lastYearCapitalYear7.Font = new System.Drawing.Font("Times New Roman", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.lastYearCapitalYear7.Location = new System.Drawing.Point(1190, 229);
+            this.lastYearCapitalYear7.Name = "lastYearCapitalYear7";
+            this.lastYearCapitalYear7.Size = new System.Drawing.Size(173, 29);
+            this.lastYearCapitalYear7.TabIndex = 76;
+            this.lastYearCapitalYear7.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // accumulatedCapitalYear7
+            // 
+            this.accumulatedCapitalYear7.BackColor = System.Drawing.SystemColors.ActiveBorder;
+            this.accumulatedCapitalYear7.Font = new System.Drawing.Font("Times New Roman", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.accumulatedCapitalYear7.Location = new System.Drawing.Point(1190, 187);
+            this.accumulatedCapitalYear7.Name = "accumulatedCapitalYear7";
+            this.accumulatedCapitalYear7.Size = new System.Drawing.Size(173, 29);
+            this.accumulatedCapitalYear7.TabIndex = 75;
+            this.accumulatedCapitalYear7.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // deltaYear7
+            // 
+            this.deltaYear7.BackColor = System.Drawing.SystemColors.ActiveBorder;
+            this.deltaYear7.Font = new System.Drawing.Font("Times New Roman", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.deltaYear7.Location = new System.Drawing.Point(1190, 135);
+            this.deltaYear7.Name = "deltaYear7";
+            this.deltaYear7.Size = new System.Drawing.Size(173, 29);
+            this.deltaYear7.TabIndex = 74;
+            this.deltaYear7.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // expensesYear7
+            // 
+            this.expensesYear7.BackColor = System.Drawing.SystemColors.ActiveBorder;
+            this.expensesYear7.Font = new System.Drawing.Font("Times New Roman", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.expensesYear7.Location = new System.Drawing.Point(1190, 87);
+            this.expensesYear7.Name = "expensesYear7";
+            this.expensesYear7.Size = new System.Drawing.Size(173, 29);
+            this.expensesYear7.TabIndex = 73;
+            this.expensesYear7.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // monthlyIncomeYear7
+            // 
+            this.monthlyIncomeYear7.BackColor = System.Drawing.SystemColors.ActiveBorder;
+            this.monthlyIncomeYear7.Font = new System.Drawing.Font("Times New Roman", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.monthlyIncomeYear7.Location = new System.Drawing.Point(1190, 45);
+            this.monthlyIncomeYear7.Name = "monthlyIncomeYear7";
+            this.monthlyIncomeYear7.Size = new System.Drawing.Size(173, 29);
+            this.monthlyIncomeYear7.TabIndex = 72;
+            this.monthlyIncomeYear7.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // label22
+            // 
+            this.label22.BackColor = System.Drawing.SystemColors.ActiveBorder;
+            this.label22.Font = new System.Drawing.Font("Times New Roman", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.label22.Location = new System.Drawing.Point(1190, 12);
+            this.label22.Name = "label22";
+            this.label22.Size = new System.Drawing.Size(173, 23);
+            this.label22.TabIndex = 71;
+            this.label22.Text = "Год 7";
+            this.label22.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // currentCapital6
+            // 
+            this.currentCapital6.BackColor = System.Drawing.SystemColors.ActiveBorder;
+            this.currentCapital6.Font = new System.Drawing.Font("Times New Roman", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.currentCapital6.Location = new System.Drawing.Point(995, 409);
+            this.currentCapital6.Name = "currentCapital6";
+            this.currentCapital6.Size = new System.Drawing.Size(173, 29);
+            this.currentCapital6.TabIndex = 70;
+            this.currentCapital6.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // percentageYear6
+            // 
+            this.percentageYear6.BackColor = System.Drawing.SystemColors.ActiveBorder;
+            this.percentageYear6.Font = new System.Drawing.Font("Times New Roman", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.percentageYear6.Location = new System.Drawing.Point(995, 343);
+            this.percentageYear6.Name = "percentageYear6";
+            this.percentageYear6.Size = new System.Drawing.Size(173, 54);
+            this.percentageYear6.TabIndex = 69;
+            this.percentageYear6.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // percentageOfLastYear6
+            // 
+            this.percentageOfLastYear6.BackColor = System.Drawing.SystemColors.ActiveBorder;
+            this.percentageOfLastYear6.Font = new System.Drawing.Font("Times New Roman", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.percentageOfLastYear6.Location = new System.Drawing.Point(995, 269);
+            this.percentageOfLastYear6.Name = "percentageOfLastYear6";
+            this.percentageOfLastYear6.Size = new System.Drawing.Size(173, 54);
+            this.percentageOfLastYear6.TabIndex = 68;
+            this.percentageOfLastYear6.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // lastYearCapitalYear6
+            // 
+            this.lastYearCapitalYear6.BackColor = System.Drawing.SystemColors.ActiveBorder;
+            this.lastYearCapitalYear6.Font = new System.Drawing.Font("Times New Roman", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.lastYearCapitalYear6.Location = new System.Drawing.Point(995, 229);
+            this.lastYearCapitalYear6.Name = "lastYearCapitalYear6";
+            this.lastYearCapitalYear6.Size = new System.Drawing.Size(173, 29);
+            this.lastYearCapitalYear6.TabIndex = 67;
+            this.lastYearCapitalYear6.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // accumulatedCapitalYear6
+            // 
+            this.accumulatedCapitalYear6.BackColor = System.Drawing.SystemColors.ActiveBorder;
+            this.accumulatedCapitalYear6.Font = new System.Drawing.Font("Times New Roman", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.accumulatedCapitalYear6.Location = new System.Drawing.Point(995, 187);
+            this.accumulatedCapitalYear6.Name = "accumulatedCapitalYear6";
+            this.accumulatedCapitalYear6.Size = new System.Drawing.Size(173, 29);
+            this.accumulatedCapitalYear6.TabIndex = 66;
+            this.accumulatedCapitalYear6.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // deltaYear6
+            // 
+            this.deltaYear6.BackColor = System.Drawing.SystemColors.ActiveBorder;
+            this.deltaYear6.Font = new System.Drawing.Font("Times New Roman", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.deltaYear6.Location = new System.Drawing.Point(995, 135);
+            this.deltaYear6.Name = "deltaYear6";
+            this.deltaYear6.Size = new System.Drawing.Size(173, 29);
+            this.deltaYear6.TabIndex = 65;
+            this.deltaYear6.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // expensesYear6
+            // 
+            this.expensesYear6.BackColor = System.Drawing.SystemColors.ActiveBorder;
+            this.expensesYear6.Font = new System.Drawing.Font("Times New Roman", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.expensesYear6.Location = new System.Drawing.Point(995, 87);
+            this.expensesYear6.Name = "expensesYear6";
+            this.expensesYear6.Size = new System.Drawing.Size(173, 29);
+            this.expensesYear6.TabIndex = 64;
+            this.expensesYear6.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // monthlyIncomeYear6
+            // 
+            this.monthlyIncomeYear6.BackColor = System.Drawing.SystemColors.ActiveBorder;
+            this.monthlyIncomeYear6.Font = new System.Drawing.Font("Times New Roman", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.monthlyIncomeYear6.Location = new System.Drawing.Point(995, 45);
+            this.monthlyIncomeYear6.Name = "monthlyIncomeYear6";
+            this.monthlyIncomeYear6.Size = new System.Drawing.Size(173, 29);
+            this.monthlyIncomeYear6.TabIndex = 63;
+            this.monthlyIncomeYear6.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // label21
+            // 
+            this.label21.BackColor = System.Drawing.SystemColors.ActiveBorder;
+            this.label21.Font = new System.Drawing.Font("Times New Roman", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.label21.Location = new System.Drawing.Point(995, 12);
+            this.label21.Name = "label21";
+            this.label21.Size = new System.Drawing.Size(173, 23);
+            this.label21.TabIndex = 62;
+            this.label21.Text = "Год 6";
+            this.label21.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // currentCapital5
+            // 
+            this.currentCapital5.BackColor = System.Drawing.SystemColors.ActiveBorder;
+            this.currentCapital5.Font = new System.Drawing.Font("Times New Roman", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.currentCapital5.Location = new System.Drawing.Point(799, 409);
+            this.currentCapital5.Name = "currentCapital5";
+            this.currentCapital5.Size = new System.Drawing.Size(173, 29);
+            this.currentCapital5.TabIndex = 61;
+            this.currentCapital5.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // percentageYear5
+            // 
+            this.percentageYear5.BackColor = System.Drawing.SystemColors.ActiveBorder;
+            this.percentageYear5.Font = new System.Drawing.Font("Times New Roman", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.percentageYear5.Location = new System.Drawing.Point(799, 343);
+            this.percentageYear5.Name = "percentageYear5";
+            this.percentageYear5.Size = new System.Drawing.Size(173, 54);
+            this.percentageYear5.TabIndex = 60;
+            this.percentageYear5.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // percentageOfLastYear5
+            // 
+            this.percentageOfLastYear5.BackColor = System.Drawing.SystemColors.ActiveBorder;
+            this.percentageOfLastYear5.Font = new System.Drawing.Font("Times New Roman", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.percentageOfLastYear5.Location = new System.Drawing.Point(799, 269);
+            this.percentageOfLastYear5.Name = "percentageOfLastYear5";
+            this.percentageOfLastYear5.Size = new System.Drawing.Size(173, 54);
+            this.percentageOfLastYear5.TabIndex = 59;
+            this.percentageOfLastYear5.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // lastYearCapitalYear5
+            // 
+            this.lastYearCapitalYear5.BackColor = System.Drawing.SystemColors.ActiveBorder;
+            this.lastYearCapitalYear5.Font = new System.Drawing.Font("Times New Roman", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.lastYearCapitalYear5.Location = new System.Drawing.Point(799, 229);
+            this.lastYearCapitalYear5.Name = "lastYearCapitalYear5";
+            this.lastYearCapitalYear5.Size = new System.Drawing.Size(173, 29);
+            this.lastYearCapitalYear5.TabIndex = 58;
+            this.lastYearCapitalYear5.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // accumulatedCapitalYear5
+            // 
+            this.accumulatedCapitalYear5.BackColor = System.Drawing.SystemColors.ActiveBorder;
+            this.accumulatedCapitalYear5.Font = new System.Drawing.Font("Times New Roman", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.accumulatedCapitalYear5.Location = new System.Drawing.Point(799, 187);
+            this.accumulatedCapitalYear5.Name = "accumulatedCapitalYear5";
+            this.accumulatedCapitalYear5.Size = new System.Drawing.Size(173, 29);
+            this.accumulatedCapitalYear5.TabIndex = 57;
+            this.accumulatedCapitalYear5.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // deltaYear5
+            // 
+            this.deltaYear5.BackColor = System.Drawing.SystemColors.ActiveBorder;
+            this.deltaYear5.Font = new System.Drawing.Font("Times New Roman", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.deltaYear5.Location = new System.Drawing.Point(799, 135);
+            this.deltaYear5.Name = "deltaYear5";
+            this.deltaYear5.Size = new System.Drawing.Size(173, 29);
+            this.deltaYear5.TabIndex = 56;
+            this.deltaYear5.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // expensesYear5
+            // 
+            this.expensesYear5.BackColor = System.Drawing.SystemColors.ActiveBorder;
+            this.expensesYear5.Font = new System.Drawing.Font("Times New Roman", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.expensesYear5.Location = new System.Drawing.Point(799, 87);
+            this.expensesYear5.Name = "expensesYear5";
+            this.expensesYear5.Size = new System.Drawing.Size(173, 29);
+            this.expensesYear5.TabIndex = 55;
+            this.expensesYear5.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // monthlyIncomeYear5
+            // 
+            this.monthlyIncomeYear5.BackColor = System.Drawing.SystemColors.ActiveBorder;
+            this.monthlyIncomeYear5.Font = new System.Drawing.Font("Times New Roman", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.monthlyIncomeYear5.Location = new System.Drawing.Point(799, 45);
+            this.monthlyIncomeYear5.Name = "monthlyIncomeYear5";
+            this.monthlyIncomeYear5.Size = new System.Drawing.Size(173, 29);
+            this.monthlyIncomeYear5.TabIndex = 54;
+            this.monthlyIncomeYear5.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // label29
+            // 
+            this.label29.BackColor = System.Drawing.SystemColors.ActiveBorder;
+            this.label29.Font = new System.Drawing.Font("Times New Roman", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.label29.Location = new System.Drawing.Point(799, 12);
+            this.label29.Name = "label29";
+            this.label29.Size = new System.Drawing.Size(173, 23);
+            this.label29.TabIndex = 53;
+            this.label29.Text = "Год 5";
+            this.label29.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // currentCapital4
+            // 
+            this.currentCapital4.BackColor = System.Drawing.SystemColors.ActiveBorder;
+            this.currentCapital4.Font = new System.Drawing.Font("Times New Roman", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.currentCapital4.Location = new System.Drawing.Point(602, 409);
+            this.currentCapital4.Name = "currentCapital4";
+            this.currentCapital4.Size = new System.Drawing.Size(173, 29);
+            this.currentCapital4.TabIndex = 52;
+            this.currentCapital4.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // percentageYear4
+            // 
+            this.percentageYear4.BackColor = System.Drawing.SystemColors.ActiveBorder;
+            this.percentageYear4.Font = new System.Drawing.Font("Times New Roman", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.percentageYear4.Location = new System.Drawing.Point(602, 343);
+            this.percentageYear4.Name = "percentageYear4";
+            this.percentageYear4.Size = new System.Drawing.Size(173, 54);
+            this.percentageYear4.TabIndex = 51;
+            this.percentageYear4.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // percentageOfLastYear4
+            // 
+            this.percentageOfLastYear4.BackColor = System.Drawing.SystemColors.ActiveBorder;
+            this.percentageOfLastYear4.Font = new System.Drawing.Font("Times New Roman", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.percentageOfLastYear4.Location = new System.Drawing.Point(602, 269);
+            this.percentageOfLastYear4.Name = "percentageOfLastYear4";
+            this.percentageOfLastYear4.Size = new System.Drawing.Size(173, 54);
+            this.percentageOfLastYear4.TabIndex = 50;
+            this.percentageOfLastYear4.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // lastYearCapitalYear4
+            // 
+            this.lastYearCapitalYear4.BackColor = System.Drawing.SystemColors.ActiveBorder;
+            this.lastYearCapitalYear4.Font = new System.Drawing.Font("Times New Roman", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.lastYearCapitalYear4.Location = new System.Drawing.Point(602, 229);
+            this.lastYearCapitalYear4.Name = "lastYearCapitalYear4";
+            this.lastYearCapitalYear4.Size = new System.Drawing.Size(173, 29);
+            this.lastYearCapitalYear4.TabIndex = 49;
+            this.lastYearCapitalYear4.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // accumulatedCapitalYear4
+            // 
+            this.accumulatedCapitalYear4.BackColor = System.Drawing.SystemColors.ActiveBorder;
+            this.accumulatedCapitalYear4.Font = new System.Drawing.Font("Times New Roman", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.accumulatedCapitalYear4.Location = new System.Drawing.Point(602, 187);
+            this.accumulatedCapitalYear4.Name = "accumulatedCapitalYear4";
+            this.accumulatedCapitalYear4.Size = new System.Drawing.Size(173, 29);
+            this.accumulatedCapitalYear4.TabIndex = 48;
+            this.accumulatedCapitalYear4.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // deltaYear4
+            // 
+            this.deltaYear4.BackColor = System.Drawing.SystemColors.ActiveBorder;
+            this.deltaYear4.Font = new System.Drawing.Font("Times New Roman", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.deltaYear4.Location = new System.Drawing.Point(602, 135);
+            this.deltaYear4.Name = "deltaYear4";
+            this.deltaYear4.Size = new System.Drawing.Size(173, 29);
+            this.deltaYear4.TabIndex = 47;
+            this.deltaYear4.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // expensesYear4
+            // 
+            this.expensesYear4.BackColor = System.Drawing.SystemColors.ActiveBorder;
+            this.expensesYear4.Font = new System.Drawing.Font("Times New Roman", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.expensesYear4.Location = new System.Drawing.Point(602, 87);
+            this.expensesYear4.Name = "expensesYear4";
+            this.expensesYear4.Size = new System.Drawing.Size(173, 29);
+            this.expensesYear4.TabIndex = 46;
+            this.expensesYear4.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // monthlyIncomeYear4
+            // 
+            this.monthlyIncomeYear4.BackColor = System.Drawing.SystemColors.ActiveBorder;
+            this.monthlyIncomeYear4.Font = new System.Drawing.Font("Times New Roman", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.monthlyIncomeYear4.Location = new System.Drawing.Point(602, 45);
+            this.monthlyIncomeYear4.Name = "monthlyIncomeYear4";
+            this.monthlyIncomeYear4.Size = new System.Drawing.Size(173, 29);
+            this.monthlyIncomeYear4.TabIndex = 45;
+            this.monthlyIncomeYear4.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // label20
+            // 
+            this.label20.BackColor = System.Drawing.SystemColors.ActiveBorder;
+            this.label20.Font = new System.Drawing.Font("Times New Roman", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.label20.Location = new System.Drawing.Point(602, 12);
+            this.label20.Name = "label20";
+            this.label20.Size = new System.Drawing.Size(173, 23);
+            this.label20.TabIndex = 44;
+            this.label20.Text = "Год 4";
+            this.label20.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // ResultsForm
             // 
@@ -1043,6 +1034,14 @@
             this.ClientSize = new System.Drawing.Size(1035, 517);
             this.Controls.Add(this.MainPanel);
             this.Controls.Add(this.CloseButton);
+            this.Controls.Add(this.label8);
+            this.Controls.Add(this.label10);
+            this.Controls.Add(this.label9);
+            this.Controls.Add(this.label7);
+            this.Controls.Add(this.label6);
+            this.Controls.Add(this.label5);
+            this.Controls.Add(this.label4);
+            this.Controls.Add(this.label3);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "ResultsForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
