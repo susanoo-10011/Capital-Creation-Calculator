@@ -40,16 +40,9 @@ namespace Project
             investmentRate = values[4] / 100;
             inflation = values[5] / 100;
 
-
-            monthlyIncomeYear1.Text = Convert.ToString(income);
-            MonthlyIncome(income, incomeGrowth);
-
-            expensesYear1.Text = Convert.ToString(expenses);
-            Expenses(expenses, inflation);
-
-            deltaYear1.Text = Convert.ToString(income - expenses);
-            Delta(expenses, inflation, income, incomeGrowth);
-
+            MonthlyIncome(income);
+            Expenses(expenses);
+            Delta(expenses, income);
             AccumulatedCapitalYear();
 
             lastYearCapitalYear1.Text = startUpCapital.ToString();
@@ -70,8 +63,9 @@ namespace Project
             CurrentCapital();
         }
 
-        public void MonthlyIncome(double income, double incomeGrowth)
+        public void MonthlyIncome(double income)
         {
+            monthlyIncomeYear1.Text = Convert.ToString(income);
             for (int i = 2; i <= 8; i++)
             {
                 income += income * (incomeGrowth / 100);
@@ -81,8 +75,9 @@ namespace Project
             }
         }
 
-        public void Expenses(double expenses, double inflation)
+        public void Expenses(double expenses)
         {
+            expensesYear1.Text = Convert.ToString(expenses);
             for (int i = 2; i <= 8; i++)
             {
                 expenses *= (1 + inflation);
@@ -98,8 +93,9 @@ namespace Project
             dataForm.Show();
         }
 
-        public void Delta(double expenses, double inflation, double income, double incomeGrowth)
+        public void Delta(double expenses, double income)
         {
+            deltaYear1.Text = Convert.ToString(income - expenses);
             for (int i = 2; i <= 8; i++)
             {
                 expenses *= (1 + inflation);
@@ -124,28 +120,25 @@ namespace Project
         }
         public void CurrentCapital()
         {
-            Label currentCapital1 = Controls.Find("currentCapital1", true).
-                        FirstOrDefault() as Label;
-            double[] currentCapitalArray = new double[11]; // создаем массив для двух лет
-            currentCapitalArray[0] = Math.Round(Convert.ToDouble(currentCapital1.Text), 0); // сохраняем текущее значение капитала
+            double currentCapitalArray = Math.Round(Convert.ToDouble(currentCapital1.Text), 0); // сохраняем текущее значение капитала
             for (int i = 2; i <= 8; i++)
             {
                 Label lastYearCapitalYear = Controls.Find("lastYearCapitalYear" + i, true).
                         FirstOrDefault() as Label;
-                lastYearCapitalYear.Text = Convert.ToString(currentCapitalArray[0]);
+                lastYearCapitalYear.Text = Convert.ToString(currentCapitalArray.ToString("N0"));
                 // присваивает значение капитала с первого года
 
                 Label percentageOfLastYear = Controls.Find("percentageOfLastYear" + i, true).
                         FirstOrDefault() as Label;
-                percentageOfLastYear.Text = Convert.ToString(Math.Round(investmentRate * 
-                    (Convert.ToDouble(lastYearCapitalYear.Text)), 0));
+                percentageOfLastYear.Text = Convert.ToString(Math.Round(investmentRate *
+                    (Convert.ToDouble(lastYearCapitalYear.Text)), 0).ToString("N0"));
 
                 Label percentageYear = Controls.Find("percentageYear" + i, true).
                         FirstOrDefault() as Label;
                 Label accumulatedCapitalYear = Controls.Find("accumulatedCapitalYear" + i, true).
                         FirstOrDefault() as Label;
                 percentageYear.Text = Convert.ToString(Math.Round(Convert.ToDouble(accumulatedCapitalYear.Text)
-                    * investmentRate / 2, 0));
+                    * investmentRate / 2, 0).ToString("N0"));
 
                 Label currentCapital = Controls.Find("currentCapital" + i, true).
                         FirstOrDefault() as Label;
@@ -154,19 +147,19 @@ namespace Project
                 double percentageOfLast = Convert.ToDouble(percentageOfLastYear.Text);
                 double percentage = Convert.ToDouble(percentageYear.Text);
                 double sum = accumulatedCapital + lastYearCapital + percentageOfLast + percentage;
-                currentCapital.Text = Convert.ToString(Math.Round(sum, 0));
+                currentCapital.Text = Convert.ToString(Math.Round(sum, 0).ToString("N0"));
 
-                currentCapitalArray[0] = Convert.ToDouble(currentCapital.Text);
+                currentCapitalArray = Convert.ToDouble(currentCapital.Text);
             }
 
         }
-            public ResultsForm()
-            {
-                InitializeComponent();
-            }
-            private void CloseButton_Click(object sender, EventArgs e)
-            {
-                Application.Exit();
-            }
+        public ResultsForm() 
+        { 
+            InitializeComponent();
+        }
+        private void CloseButton_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
+        }
     }
 }
